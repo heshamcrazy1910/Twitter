@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background: black;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 10px 12%;
+    width: 29%;
+    height: 100%;
+    position: fixed;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    justify-content: space-between;
+}
+.nav-links a {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 8px 10px 8px 8px;
+    width: fit-content;
+}
+.nav-links a:first-child{
+    padding: 8px 8px;
+}
+.nav-links a:first-child:hover{
+    background: none;
+}
+a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: 0.2s;
+    line-height: 25px;
+}
+a:hover{
+    border-radius: 9999px;
+    background-color:rgb(47, 51, 54) ;
+    color: rgb(29,155,240);
+    padding-left: 10px;
+}
+.fa-brands{
+    font-size: 3rem;
+    color:deepskyblue;
+}
+a span {
+    padding-left: 10px;
+}
+.tweet{
+    background-color: rgb(29,155,240);
+    width: 65%;
+    border-radius: 9999px;
+    margin-top: 15px;
+    /* cursor: pointer; */
+    height: 55px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    border: 1px solid rgb(29,155,240);
+    text-decoration: 0.3s;
+    color: white;
+}
+.tweet:hover{
+    background-color: rgba(29,155,240,0.9);
+}
+
+.main-acc{
+    width: 100%;
+    height: 30%;
+    padding-top: 185px;
+}
+.main-acc a{
+    display: flex;
+    padding: 8px 10px 8px 15px;
+    margin-right: 115px;
+    align-items: center;
+}
+.main-acc a:hover{
+    border-radius: 9999px;
+    background-color:rgb(47, 51, 54) ;
+}
+.tweet-img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.dit{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+.acc-name{
+    font-weight: 400;
+}
+.acc-tag{
+    color: #726a6a ;
+}
+
+/* ******************************** */
+
+main{
+    width: 71%;
+    height: 100%;
+    margin-left: 29%;
+}
+.home-bar{
+    color: white;
+    font-size: 2.2rem;
+    height: 55px;
+    width: 100%;
+    padding: 0 15px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+.main-cont{
+    display: flex;
+    width: 100%;
+
+}
+.main-post{
+    width: 50%;
+    border-left: 1px rgb(47, 51, 54);
+    border-right: 1px rgb(47, 51, 54);
+
+}
